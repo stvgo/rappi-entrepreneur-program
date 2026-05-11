@@ -2,7 +2,7 @@
 
 **Caso:** Rappi Entrepreneur Program  
 **Fecha:** Mayo 2026  
-**Analista:** [Nombre del candidato]  
+**Analista:** John Stiven Valeriano  
 **Herramientas:** Python, Pandas, OpenPyXL, Excel  
 **Dataset:** Datos simulados de 9 semanas (L8W–L0W), 15 zonas de CDMX, 3 competidores
 
