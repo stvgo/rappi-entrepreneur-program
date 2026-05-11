@@ -1,31 +1,451 @@
 product,category,zone,zone_type,competitor,product_price,delivery_fee,service_fee,subtotal,promo,discount,final_total,available
-Big Mac,Fast Food,Polanco,Wealthy,Rappi,88,22,11,121,Ninguna,0,121,True
-Big Mac,Fast Food,Polanco,Wealthy,Uber Eats,91,14,13,118,Ninguna,0,118,True
-Big Mac,Fast Food,Polanco,Wealthy,DiDi Food,88,14,12,114,DiDi Pass mensual,0,114,True
-Combo McDonald's Mediano,Fast Food,Polanco,Wealthy,Rappi,148,22,19,189,Ninguna,0,189,True
-Combo McDonald's Mediano,Fast Food,Polanco,Wealthy,Uber Eats,144,14,20,178,Ninguna,0,178,True
-Combo McDonald's Mediano,Fast Food,Polanco,Wealthy,DiDi Food,145,14,20,179,Ninguna,0,179,True
-Nuggets 10 piezas,Fast Food,Polanco,Wealthy,Rappi,124,22,16,162,Envío gratis >$200,22,140,True
-Nuggets 10 piezas,Fast Food,Polanco,Wealthy,Uber Eats,120,14,17,151,Ninguna,0,151,True
-Nuggets 10 piezas,Fast Food,Polanco,Wealthy,DiDi Food,115,14,16,145,DiDi Pass mensual,0,145,True
-Whopper,Fast Food,Polanco,Wealthy,Rappi,96,22,12,130,2x1 en combos,48,82,True
-Whopper,Fast Food,Polanco,Wealthy,Uber Eats,95,14,13,122,Ninguna,0,122,True
-Whopper,Fast Food,Polanco,Wealthy,DiDi Food,94,14,13,121,Ninguna,0,121,True
-Coca-Cola 500ml,Retail,Polanco,Wealthy,Rappi,18,22,2,42,2x1 en combos,9,33,True
-Coca-Cola 500ml,Retail,Polanco,Wealthy,Uber Eats,18,14,3,35,15% off primer orden,3,32,True
-Coca-Cola 500ml,Retail,Polanco,Wealthy,DiDi Food,19,14,3,36,Ninguna,0,36,True
-Agua embotellada 1L,Retail,Polanco,Wealthy,Rappi,15,22,2,39,Ninguna,0,39,True
-Agua embotellada 1L,Retail,Polanco,Wealthy,Uber Eats,14,14,2,30,Ninguna,0,30,True
-Agua embotellada 1L,Retail,Polanco,Wealthy,DiDi Food,15,14,2,31,Envío gratis >$150,14,17,True
-Paquete pañales Pampers,Retail,Polanco,Wealthy,Rappi,299,22,38,359,Envío gratis >$200,22,337,True
-Paquete pañales Pampers,Retail,Polanco,Wealthy,Uber Eats,282,14,40,336,Ninguna,0,336,True
-Paquete pañales Pampers,Retail,Polanco,Wealthy,DiDi Food,289,14,41,344,Ninguna,0,344,True
-Pizza Domino's Pepperoni,Fast Food,Polanco,Wealthy,Rappi,240,22,31,293,2x1 en combos,120,173,True
-Pizza Domino's Pepperoni,Fast Food,Polanco,Wealthy,Uber Eats,247,14,35,296,15% off primer orden,37,259,True
-Pizza Domino's Pepperoni,Fast Food,Polanco,Wealthy,DiDi Food,253,14,36,303,Ninguna,0,303,True
-Starbucks Latte Grande,Fast Food,Polanco,Wealthy,Rappi,72,22,9,103,2x1 en combos,36,67,True
-Starbucks Latte Grande,Fast Food,Polanco,Wealthy,Uber Eats,69,14,10,93,Ninguna,0,93,True
-Starbucks Latte Grande,Fast Food,Polanco,Wealthy,DiDi Food,73,14,10,97,Ninguna,0,97,True
-Seven Eleven Sandwich,Retail,Polanco,Wealthy,Rappi,45,22,6,73,Ninguna,0,73,True
-Seven Eleven Sandwich,Retail,Polanco,Wealthy,Uber Eats,47,14,7,68,Ninguna,0,68,True
-Seven Eleven Sandwich,Retail,Polanco,Wealthy,DiDi Food,45,14,6,65,Envío gratis >$150,14,51,True
+Big Mac,Fast Food,Polanco,Wealthy,Rappi,91,20,12,123,Ninguna,0,123,True
+Big Mac,Fast Food,Polanco,Wealthy,Uber Eats,90,13,13,116,Uber One 50% off,6,110,True
+Big Mac,Fast Food,Polanco,Wealthy,DiDi Food,93,15,11,119,Ninguna,0,119,True
+Big Mac,Fast Food,Roma Norte,Wealthy,Rappi,92,19,13,124,Ninguna,0,124,True
+Big Mac,Fast Food,Roma Norte,Wealthy,Uber Eats,92,14,13,119,15% off primer orden,14,105,True
+Big Mac,Fast Food,Roma Norte,Wealthy,DiDi Food,92,13,12,117,Ninguna,0,117,True
+Big Mac,Fast Food,Condesa,Wealthy,Rappi,93,17,11,121,Ninguna,0,121,True
+Big Mac,Fast Food,Condesa,Wealthy,Uber Eats,96,15,12,123,Envío gratis siempre,15,108,True
+Big Mac,Fast Food,Condesa,Wealthy,DiDi Food,91,15,14,120,Ninguna,0,120,True
+Big Mac,Fast Food,Del Valle,Wealthy,Rappi,89,19,11,119,Ninguna,0,119,True
+Big Mac,Fast Food,Del Valle,Wealthy,Uber Eats,91,15,12,118,Ninguna,0,118,True
+Big Mac,Fast Food,Del Valle,Wealthy,DiDi Food,86,13,13,112,Ninguna,0,112,True
+Big Mac,Fast Food,Santa Fe,Wealthy,Rappi,91,20,10,121,Ninguna,0,121,True
+Big Mac,Fast Food,Santa Fe,Wealthy,Uber Eats,91,13,13,117,Ninguna,0,117,True
+Big Mac,Fast Food,Santa Fe,Wealthy,DiDi Food,88,15,11,114,Ninguna,0,114,True
+Big Mac,Fast Food,Lomas de Chapultepec,Wealthy,Rappi,86,18,12,116,Ninguna,0,116,True
+Big Mac,Fast Food,Lomas de Chapultepec,Wealthy,Uber Eats,88,14,12,114,Envío gratis siempre,14,100,True
+Big Mac,Fast Food,Lomas de Chapultepec,Wealthy,DiDi Food,88,14,13,115,Envío gratis >$150,0,115,True
+Big Mac,Fast Food,Coyoacán,Mixed,Rappi,86,27,10,123,Ninguna,0,123,True
+Big Mac,Fast Food,Coyoacán,Mixed,Uber Eats,83,13,12,108,Ninguna,0,108,True
+Big Mac,Fast Food,Coyoacán,Mixed,DiDi Food,82,14,12,108,Ninguna,0,108,True
+Big Mac,Fast Food,Narvarte,Mixed,Rappi,92,28,11,131,10% off próxima compra,9,122,True
+Big Mac,Fast Food,Narvarte,Mixed,Uber Eats,91,15,13,119,15% off primer orden,14,105,True
+Big Mac,Fast Food,Narvarte,Mixed,DiDi Food,92,13,13,118,20% off restaurants,18,100,True
+Big Mac,Fast Food,Mixcoac,Mixed,Rappi,93,28,10,131,Ninguna,0,131,True
+Big Mac,Fast Food,Mixcoac,Mixed,Uber Eats,92,14,13,119,15% off primer orden,14,105,True
+Big Mac,Fast Food,Mixcoac,Mixed,DiDi Food,96,13,12,121,Ninguna,0,121,True
+Big Mac,Fast Food,Tlalpan,Mixed,Rappi,87,21,10,118,Ninguna,0,118,True
+Big Mac,Fast Food,Tlalpan,Mixed,Uber Eats,90,13,12,115,15% off primer orden,14,101,True
+Big Mac,Fast Food,Tlalpan,Mixed,DiDi Food,85,14,11,110,Ninguna,0,110,True
+Big Mac,Fast Food,Doctores,Non Wealthy,Rappi,88,33,11,132,Ninguna,0,132,True
+Big Mac,Fast Food,Doctores,Non Wealthy,Uber Eats,89,13,12,114,Ninguna,0,114,True
+Big Mac,Fast Food,Doctores,Non Wealthy,DiDi Food,90,15,11,116,20% off restaurants,18,98,True
+Big Mac,Fast Food,Iztapalapa,Non Wealthy,Rappi,93,32,13,138,Envío gratis >$200,0,138,True
+Big Mac,Fast Food,Iztapalapa,Non Wealthy,Uber Eats,90,14,13,117,Ninguna,0,117,True
+Big Mac,Fast Food,Iztapalapa,Non Wealthy,DiDi Food,95,14,12,121,Ninguna,0,121,True
+Big Mac,Fast Food,Tláhuac,Non Wealthy,Rappi,93,31,11,135,2x1 en combos,46,89,True
+Big Mac,Fast Food,Tláhuac,Non Wealthy,Uber Eats,95,13,12,120,Ninguna,0,120,True
+Big Mac,Fast Food,Tláhuac,Non Wealthy,DiDi Food,93,13,13,119,Ninguna,0,119,True
+Big Mac,Fast Food,Milpa Alta,Non Wealthy,Rappi,95,33,11,139,2x1 en combos,47,92,True
+Big Mac,Fast Food,Milpa Alta,Non Wealthy,Uber Eats,98,13,13,124,Ninguna,0,124,True
+Big Mac,Fast Food,Milpa Alta,Non Wealthy,DiDi Food,92,13,12,117,20% off restaurants,18,99,True
+Big Mac,Fast Food,Xochimilco,Non Wealthy,Rappi,95,28,12,135,2x1 en combos,47,88,True
+Big Mac,Fast Food,Xochimilco,Non Wealthy,Uber Eats,92,14,12,118,Ninguna,0,118,True
+Big Mac,Fast Food,Xochimilco,Non Wealthy,DiDi Food,93,14,12,119,Ninguna,0,119,True
+Combo McDonald's Mediano,Fast Food,Polanco,Wealthy,Rappi,147,23,18,188,10% off próxima compra,15,173,True
+Combo McDonald's Mediano,Fast Food,Polanco,Wealthy,Uber Eats,148,15,20,183,Ninguna,0,183,True
+Combo McDonald's Mediano,Fast Food,Polanco,Wealthy,DiDi Food,146,15,21,182,Envío gratis >$150,15,167,True
+Combo McDonald's Mediano,Fast Food,Roma Norte,Wealthy,Rappi,157,17,18,192,Ninguna,0,192,True
+Combo McDonald's Mediano,Fast Food,Roma Norte,Wealthy,Uber Eats,156,13,21,190,Ninguna,0,190,True
+Combo McDonald's Mediano,Fast Food,Roma Norte,Wealthy,DiDi Food,156,15,22,193,Ninguna,0,193,True
+Combo McDonald's Mediano,Fast Food,Condesa,Wealthy,Rappi,148,20,18,186,Ninguna,0,186,True
+Combo McDonald's Mediano,Fast Food,Condesa,Wealthy,Uber Eats,147,13,21,181,Envío gratis siempre,13,168,True
+Combo McDonald's Mediano,Fast Food,Condesa,Wealthy,DiDi Food,152,13,21,186,Envío gratis >$150,13,173,True
+Combo McDonald's Mediano,Fast Food,Del Valle,Wealthy,Rappi,144,23,18,185,Envío gratis >$200,0,185,True
+Combo McDonald's Mediano,Fast Food,Del Valle,Wealthy,Uber Eats,146,14,19,179,15% off primer orden,22,157,True
+Combo McDonald's Mediano,Fast Food,Del Valle,Wealthy,DiDi Food,144,13,22,179,Ninguna,0,179,True
+Combo McDonald's Mediano,Fast Food,Santa Fe,Wealthy,Rappi,144,19,19,182,2x1 en combos,72,110,True
+Combo McDonald's Mediano,Fast Food,Santa Fe,Wealthy,Uber Eats,144,15,21,180,15% off primer orden,22,158,True
+Combo McDonald's Mediano,Fast Food,Santa Fe,Wealthy,DiDi Food,145,14,18,177,Ninguna,0,177,True
+Combo McDonald's Mediano,Fast Food,Lomas de Chapultepec,Wealthy,Rappi,144,17,17,178,Ninguna,0,178,True
+Combo McDonald's Mediano,Fast Food,Lomas de Chapultepec,Wealthy,Uber Eats,145,13,20,178,Ninguna,0,178,True
+Combo McDonald's Mediano,Fast Food,Lomas de Chapultepec,Wealthy,DiDi Food,148,14,20,182,Ninguna,0,182,True
+Combo McDonald's Mediano,Fast Food,Coyoacán,Mixed,Rappi,157,24,20,201,Ninguna,0,201,True
+Combo McDonald's Mediano,Fast Food,Coyoacán,Mixed,Uber Eats,156,15,22,193,Ninguna,0,193,True
+Combo McDonald's Mediano,Fast Food,Coyoacán,Mixed,DiDi Food,158,13,19,190,20% off restaurants,32,158,True
+Combo McDonald's Mediano,Fast Food,Narvarte,Mixed,Rappi,154,23,20,197,Ninguna,0,197,True
+Combo McDonald's Mediano,Fast Food,Narvarte,Mixed,Uber Eats,154,14,22,190,15% off primer orden,23,167,True
+Combo McDonald's Mediano,Fast Food,Narvarte,Mixed,DiDi Food,150,14,21,185,Ninguna,0,185,True
+Combo McDonald's Mediano,Fast Food,Mixcoac,Mixed,Rappi,144,28,17,189,Ninguna,0,189,True
+Combo McDonald's Mediano,Fast Food,Mixcoac,Mixed,Uber Eats,145,13,21,179,Ninguna,0,179,True
+Combo McDonald's Mediano,Fast Food,Mixcoac,Mixed,DiDi Food,145,14,21,180,20% off restaurants,29,151,True
+Combo McDonald's Mediano,Fast Food,Tlalpan,Mixed,Rappi,158,26,22,206,Ninguna,0,206,True
+Combo McDonald's Mediano,Fast Food,Tlalpan,Mixed,Uber Eats,159,13,23,195,Ninguna,0,195,True
+Combo McDonald's Mediano,Fast Food,Tlalpan,Mixed,DiDi Food,160,13,20,193,Ninguna,0,193,True
+Combo McDonald's Mediano,Fast Food,Doctores,Non Wealthy,Rappi,151,34,21,206,Ninguna,0,206,True
+Combo McDonald's Mediano,Fast Food,Doctores,Non Wealthy,Uber Eats,154,14,20,188,Ninguna,0,188,True
+Combo McDonald's Mediano,Fast Food,Doctores,Non Wealthy,DiDi Food,152,14,19,185,Ninguna,0,185,True
+Combo McDonald's Mediano,Fast Food,Iztapalapa,Non Wealthy,Rappi,158,35,21,214,Ninguna,0,214,True
+Combo McDonald's Mediano,Fast Food,Iztapalapa,Non Wealthy,Uber Eats,161,13,22,196,15% off primer orden,24,172,True
+Combo McDonald's Mediano,Fast Food,Iztapalapa,Non Wealthy,DiDi Food,156,13,20,189,Ninguna,0,189,True
+Combo McDonald's Mediano,Fast Food,Tláhuac,Non Wealthy,Rappi,148,28,17,193,Ninguna,0,193,True
+Combo McDonald's Mediano,Fast Food,Tláhuac,Non Wealthy,Uber Eats,147,13,20,180,15% off primer orden,22,158,True
+Combo McDonald's Mediano,Fast Food,Tláhuac,Non Wealthy,DiDi Food,150,13,18,181,Ninguna,0,181,True
+Combo McDonald's Mediano,Fast Food,Milpa Alta,Non Wealthy,Rappi,158,31,19,208,Ninguna,0,208,True
+Combo McDonald's Mediano,Fast Food,Milpa Alta,Non Wealthy,Uber Eats,159,14,22,195,Uber One 50% off,7,188,True
+Combo McDonald's Mediano,Fast Food,Milpa Alta,Non Wealthy,DiDi Food,158,14,21,193,Ninguna,0,193,True
+Combo McDonald's Mediano,Fast Food,Xochimilco,Non Wealthy,Rappi,156,30,22,208,Ninguna,0,208,True
+Combo McDonald's Mediano,Fast Food,Xochimilco,Non Wealthy,Uber Eats,159,15,23,197,Ninguna,0,197,True
+Combo McDonald's Mediano,Fast Food,Xochimilco,Non Wealthy,DiDi Food,154,13,19,186,Ninguna,0,186,True
+Nuggets 10 piezas,Fast Food,Polanco,Wealthy,Rappi,118,22,15,155,Ninguna,0,155,True
+Nuggets 10 piezas,Fast Food,Polanco,Wealthy,Uber Eats,115,15,16,146,Ninguna,0,146,True
+Nuggets 10 piezas,Fast Food,Polanco,Wealthy,DiDi Food,115,15,15,145,Ninguna,0,145,True
+Nuggets 10 piezas,Fast Food,Roma Norte,Wealthy,Rappi,126,21,17,164,Ninguna,0,164,True
+Nuggets 10 piezas,Fast Food,Roma Norte,Wealthy,Uber Eats,129,13,18,160,Ninguna,0,160,True
+Nuggets 10 piezas,Fast Food,Roma Norte,Wealthy,DiDi Food,124,13,17,154,DiDi Pass mensual,13,141,True
+Nuggets 10 piezas,Fast Food,Condesa,Wealthy,Rappi,122,21,14,157,Ninguna,0,157,True
+Nuggets 10 piezas,Fast Food,Condesa,Wealthy,Uber Eats,123,14,17,154,Ninguna,0,154,True
+Nuggets 10 piezas,Fast Food,Condesa,Wealthy,DiDi Food,122,13,18,153,Ninguna,0,153,True
+Nuggets 10 piezas,Fast Food,Del Valle,Wealthy,Rappi,120,18,15,153,Ninguna,0,153,True
+Nuggets 10 piezas,Fast Food,Del Valle,Wealthy,Uber Eats,118,14,16,148,Uber One 50% off,7,141,True
+Nuggets 10 piezas,Fast Food,Del Valle,Wealthy,DiDi Food,118,14,16,148,DiDi Pass mensual,14,134,True
+Nuggets 10 piezas,Fast Food,Santa Fe,Wealthy,Rappi,117,23,16,156,Ninguna,0,156,True
+Nuggets 10 piezas,Fast Food,Santa Fe,Wealthy,Uber Eats,117,14,17,148,Ninguna,0,148,True
+Nuggets 10 piezas,Fast Food,Santa Fe,Wealthy,DiDi Food,114,13,17,144,Envío gratis >$150,0,144,True
+Nuggets 10 piezas,Fast Food,Lomas de Chapultepec,Wealthy,Rappi,124,21,17,162,Ninguna,0,162,True
+Nuggets 10 piezas,Fast Food,Lomas de Chapultepec,Wealthy,Uber Eats,125,15,18,158,15% off primer orden,19,139,True
+Nuggets 10 piezas,Fast Food,Lomas de Chapultepec,Wealthy,DiDi Food,121,13,16,150,Ninguna,0,150,True
+Nuggets 10 piezas,Fast Food,Coyoacán,Mixed,Rappi,123,28,16,167,2x1 en combos,61,106,True
+Nuggets 10 piezas,Fast Food,Coyoacán,Mixed,Uber Eats,126,13,17,156,Ninguna,0,156,True
+Nuggets 10 piezas,Fast Food,Coyoacán,Mixed,DiDi Food,122,14,16,152,20% off restaurants,24,128,True
+Nuggets 10 piezas,Fast Food,Narvarte,Mixed,Rappi,121,24,17,162,2x1 en combos,60,102,True
+Nuggets 10 piezas,Fast Food,Narvarte,Mixed,Uber Eats,120,13,17,150,Ninguna,0,150,True
+Nuggets 10 piezas,Fast Food,Narvarte,Mixed,DiDi Food,117,13,16,146,Ninguna,0,146,True
+Nuggets 10 piezas,Fast Food,Mixcoac,Mixed,Rappi,121,27,16,164,Ninguna,0,164,True
+Nuggets 10 piezas,Fast Food,Mixcoac,Mixed,Uber Eats,118,14,17,149,Envío gratis siempre,14,135,True
+Nuggets 10 piezas,Fast Food,Mixcoac,Mixed,DiDi Food,119,14,17,150,Ninguna,0,150,True
+Nuggets 10 piezas,Fast Food,Tlalpan,Mixed,Rappi,122,26,14,162,Ninguna,0,162,True
+Nuggets 10 piezas,Fast Food,Tlalpan,Mixed,Uber Eats,121,13,16,150,Envío gratis siempre,13,137,True
+Nuggets 10 piezas,Fast Food,Tlalpan,Mixed,DiDi Food,126,13,18,157,20% off restaurants,25,132,True
+Nuggets 10 piezas,Fast Food,Doctores,Non Wealthy,Rappi,116,29,13,158,10% off próxima compra,12,146,True
+Nuggets 10 piezas,Fast Food,Doctores,Non Wealthy,Uber Eats,117,15,16,148,Uber One 50% off,8,140,True
+Nuggets 10 piezas,Fast Food,Doctores,Non Wealthy,DiDi Food,115,13,16,144,Ninguna,0,144,True
+Nuggets 10 piezas,Fast Food,Iztapalapa,Non Wealthy,Rappi,118,29,17,164,10% off próxima compra,12,152,True
+Nuggets 10 piezas,Fast Food,Iztapalapa,Non Wealthy,Uber Eats,119,14,15,148,15% off primer orden,18,130,True
+Nuggets 10 piezas,Fast Food,Iztapalapa,Non Wealthy,DiDi Food,115,15,17,147,Envío gratis >$150,0,147,True
+Nuggets 10 piezas,Fast Food,Tláhuac,Non Wealthy,Rappi,114,32,14,160,Ninguna,0,160,True
+Nuggets 10 piezas,Fast Food,Tláhuac,Non Wealthy,Uber Eats,113,14,15,142,Ninguna,0,142,True
+Nuggets 10 piezas,Fast Food,Tláhuac,Non Wealthy,DiDi Food,111,15,15,141,20% off restaurants,22,119,True
+Nuggets 10 piezas,Fast Food,Milpa Alta,Non Wealthy,Rappi,126,28,17,171,2x1 en combos,63,108,True
+Nuggets 10 piezas,Fast Food,Milpa Alta,Non Wealthy,Uber Eats,128,14,19,161,15% off primer orden,19,142,True
+Nuggets 10 piezas,Fast Food,Milpa Alta,Non Wealthy,DiDi Food,124,13,18,155,Ninguna,0,155,True
+Nuggets 10 piezas,Fast Food,Xochimilco,Non Wealthy,Rappi,123,30,15,168,Ninguna,0,168,True
+Nuggets 10 piezas,Fast Food,Xochimilco,Non Wealthy,Uber Eats,121,15,16,152,Ninguna,0,152,True
+Nuggets 10 piezas,Fast Food,Xochimilco,Non Wealthy,DiDi Food,122,14,16,152,Ninguna,0,152,True
+Whopper,Fast Food,Polanco,Wealthy,Rappi,90,19,11,120,Ninguna,0,120,True
+Whopper,Fast Food,Polanco,Wealthy,Uber Eats,87,13,13,113,Uber One 50% off,6,107,True
+Whopper,Fast Food,Polanco,Wealthy,DiDi Food,91,14,11,116,20% off restaurants,18,98,True
+Whopper,Fast Food,Roma Norte,Wealthy,Rappi,94,22,13,129,Ninguna,0,129,True
+Whopper,Fast Food,Roma Norte,Wealthy,Uber Eats,91,13,13,117,Ninguna,0,117,True
+Whopper,Fast Food,Roma Norte,Wealthy,DiDi Food,91,15,13,119,Ninguna,0,119,True
+Whopper,Fast Food,Condesa,Wealthy,Rappi,90,21,11,122,Ninguna,0,122,True
+Whopper,Fast Food,Condesa,Wealthy,Uber Eats,88,14,13,115,Ninguna,0,115,True
+Whopper,Fast Food,Condesa,Wealthy,DiDi Food,93,14,13,120,Ninguna,0,120,True
+Whopper,Fast Food,Del Valle,Wealthy,Rappi,99,20,12,131,Ninguna,0,131,True
+Whopper,Fast Food,Del Valle,Wealthy,Uber Eats,99,14,13,126,Ninguna,0,126,True
+Whopper,Fast Food,Del Valle,Wealthy,DiDi Food,100,14,13,127,Ninguna,0,127,True
+Whopper,Fast Food,Santa Fe,Wealthy,Rappi,101,21,11,133,Ninguna,0,133,True
+Whopper,Fast Food,Santa Fe,Wealthy,Uber Eats,102,13,15,130,Envío gratis siempre,13,117,True
+Whopper,Fast Food,Santa Fe,Wealthy,DiDi Food,105,14,13,132,Envío gratis >$150,0,132,True
+Whopper,Fast Food,Lomas de Chapultepec,Wealthy,Rappi,94,23,13,130,10% off próxima compra,9,121,True
+Whopper,Fast Food,Lomas de Chapultepec,Wealthy,Uber Eats,95,13,14,122,Uber One 50% off,6,116,True
+Whopper,Fast Food,Lomas de Chapultepec,Wealthy,DiDi Food,98,14,12,124,Envío gratis >$150,0,124,True
+Whopper,Fast Food,Coyoacán,Mixed,Rappi,91,21,11,123,10% off próxima compra,9,114,True
+Whopper,Fast Food,Coyoacán,Mixed,Uber Eats,88,15,12,115,Envío gratis siempre,15,100,True
+Whopper,Fast Food,Coyoacán,Mixed,DiDi Food,91,13,13,117,Ninguna,0,117,True
+Whopper,Fast Food,Narvarte,Mixed,Rappi,94,25,13,132,10% off próxima compra,9,123,True
+Whopper,Fast Food,Narvarte,Mixed,Uber Eats,96,13,13,122,15% off primer orden,14,108,True
+Whopper,Fast Food,Narvarte,Mixed,DiDi Food,90,14,13,117,Ninguna,0,117,True
+Whopper,Fast Food,Mixcoac,Mixed,Rappi,90,28,11,129,Envío gratis >$200,0,129,True
+Whopper,Fast Food,Mixcoac,Mixed,Uber Eats,92,14,12,118,Ninguna,0,118,True
+Whopper,Fast Food,Mixcoac,Mixed,DiDi Food,91,14,12,117,Envío gratis >$150,0,117,True
+Whopper,Fast Food,Tlalpan,Mixed,Rappi,101,25,14,140,Ninguna,0,140,True
+Whopper,Fast Food,Tlalpan,Mixed,Uber Eats,104,14,14,132,15% off primer orden,16,116,True
+Whopper,Fast Food,Tlalpan,Mixed,DiDi Food,101,14,14,129,Ninguna,0,129,True
+Whopper,Fast Food,Doctores,Non Wealthy,Rappi,95,35,12,142,Ninguna,0,142,True
+Whopper,Fast Food,Doctores,Non Wealthy,Uber Eats,94,14,14,122,Ninguna,0,122,True
+Whopper,Fast Food,Doctores,Non Wealthy,DiDi Food,92,14,13,119,Envío gratis >$150,0,119,True
+Whopper,Fast Food,Iztapalapa,Non Wealthy,Rappi,101,33,14,148,Ninguna,0,148,True
+Whopper,Fast Food,Iztapalapa,Non Wealthy,Uber Eats,98,15,15,128,Ninguna,0,128,True
+Whopper,Fast Food,Iztapalapa,Non Wealthy,DiDi Food,97,14,13,124,20% off restaurants,19,105,True
+Whopper,Fast Food,Tláhuac,Non Wealthy,Rappi,94,29,12,135,Ninguna,0,135,True
+Whopper,Fast Food,Tláhuac,Non Wealthy,Uber Eats,91,13,13,117,Ninguna,0,117,True
+Whopper,Fast Food,Tláhuac,Non Wealthy,DiDi Food,96,14,11,121,Ninguna,0,121,True
+Whopper,Fast Food,Milpa Alta,Non Wealthy,Rappi,97,31,13,141,Ninguna,0,141,True
+Whopper,Fast Food,Milpa Alta,Non Wealthy,Uber Eats,98,13,14,125,Ninguna,0,125,True
+Whopper,Fast Food,Milpa Alta,Non Wealthy,DiDi Food,95,15,14,124,Ninguna,0,124,True
+Whopper,Fast Food,Xochimilco,Non Wealthy,Rappi,95,32,12,139,Ninguna,0,139,True
+Whopper,Fast Food,Xochimilco,Non Wealthy,Uber Eats,92,14,13,119,Ninguna,0,119,True
+Whopper,Fast Food,Xochimilco,Non Wealthy,DiDi Food,99,13,14,126,DiDi Pass mensual,13,113,True
+Coca-Cola 500ml,Retail,Polanco,Wealthy,Rappi,18,19,2,39,Ninguna,0,39,True
+Coca-Cola 500ml,Retail,Polanco,Wealthy,Uber Eats,17,15,3,35,Ninguna,0,35,True
+Coca-Cola 500ml,Retail,Polanco,Wealthy,DiDi Food,17,13,2,32,Ninguna,0,32,True
+Coca-Cola 500ml,Retail,Roma Norte,Wealthy,Rappi,18,20,2,40,2x1 en combos,0,40,True
+Coca-Cola 500ml,Retail,Roma Norte,Wealthy,Uber Eats,17,15,3,35,Uber One 50% off,8,27,True
+Coca-Cola 500ml,Retail,Roma Norte,Wealthy,DiDi Food,20,14,2,36,DiDi Pass mensual,14,22,True
+Coca-Cola 500ml,Retail,Condesa,Wealthy,Rappi,17,18,2,37,Ninguna,0,37,True
+Coca-Cola 500ml,Retail,Condesa,Wealthy,Uber Eats,18,14,2,34,Ninguna,0,34,True
+Coca-Cola 500ml,Retail,Condesa,Wealthy,DiDi Food,19,14,2,35,Ninguna,0,35,True
+Coca-Cola 500ml,Retail,Del Valle,Wealthy,Rappi,17,17,2,36,Ninguna,0,36,True
+Coca-Cola 500ml,Retail,Del Valle,Wealthy,Uber Eats,20,13,2,35,15% off primer orden,3,32,True
+Coca-Cola 500ml,Retail,Del Valle,Wealthy,DiDi Food,16,13,2,31,DiDi Pass mensual,13,18,True
+Coca-Cola 500ml,Retail,Santa Fe,Wealthy,Rappi,17,20,2,39,Ninguna,0,39,True
+Coca-Cola 500ml,Retail,Santa Fe,Wealthy,Uber Eats,15,15,2,32,Ninguna,0,32,True
+Coca-Cola 500ml,Retail,Santa Fe,Wealthy,DiDi Food,20,14,2,36,20% off restaurants,0,36,True
+Coca-Cola 500ml,Retail,Lomas de Chapultepec,Wealthy,Rappi,17,22,2,41,Envío gratis >$200,0,41,True
+Coca-Cola 500ml,Retail,Lomas de Chapultepec,Wealthy,Uber Eats,19,13,2,34,Ninguna,0,34,True
+Coca-Cola 500ml,Retail,Lomas de Chapultepec,Wealthy,DiDi Food,20,14,2,36,Ninguna,0,36,True
+Coca-Cola 500ml,Retail,Coyoacán,Mixed,Rappi,17,24,2,43,Ninguna,0,43,True
+Coca-Cola 500ml,Retail,Coyoacán,Mixed,Uber Eats,19,15,3,37,Ninguna,0,37,True
+Coca-Cola 500ml,Retail,Coyoacán,Mixed,DiDi Food,18,14,2,34,DiDi Pass mensual,14,20,True
+Coca-Cola 500ml,Retail,Narvarte,Mixed,Rappi,17,22,2,41,2x1 en combos,0,41,True
+Coca-Cola 500ml,Retail,Narvarte,Mixed,Uber Eats,19,15,2,36,Ninguna,0,36,True
+Coca-Cola 500ml,Retail,Narvarte,Mixed,DiDi Food,18,13,2,33,DiDi Pass mensual,13,20,True
+Coca-Cola 500ml,Retail,Mixcoac,Mixed,Rappi,19,21,2,42,Ninguna,0,42,True
+Coca-Cola 500ml,Retail,Mixcoac,Mixed,Uber Eats,19,14,3,36,Ninguna,0,36,True
+Coca-Cola 500ml,Retail,Mixcoac,Mixed,DiDi Food,17,14,2,33,Ninguna,0,33,True
+Coca-Cola 500ml,Retail,Tlalpan,Mixed,Rappi,19,22,2,43,Ninguna,0,43,True
+Coca-Cola 500ml,Retail,Tlalpan,Mixed,Uber Eats,16,14,3,33,Ninguna,0,33,True
+Coca-Cola 500ml,Retail,Tlalpan,Mixed,DiDi Food,15,13,2,30,Ninguna,0,30,True
+Coca-Cola 500ml,Retail,Doctores,Non Wealthy,Rappi,19,33,3,55,10% off próxima compra,2,53,True
+Coca-Cola 500ml,Retail,Doctores,Non Wealthy,Uber Eats,20,15,3,38,Ninguna,0,38,True
+Coca-Cola 500ml,Retail,Doctores,Non Wealthy,DiDi Food,22,13,3,38,Ninguna,0,38,True
+Coca-Cola 500ml,Retail,Iztapalapa,Non Wealthy,Rappi,17,35,2,54,Ninguna,0,54,True
+Coca-Cola 500ml,Retail,Iztapalapa,Non Wealthy,Uber Eats,19,14,2,35,Uber One 50% off,7,28,True
+Coca-Cola 500ml,Retail,Iztapalapa,Non Wealthy,DiDi Food,15,13,2,30,DiDi Pass mensual,13,17,True
+Coca-Cola 500ml,Retail,Tláhuac,Non Wealthy,Rappi,18,33,2,53,Ninguna,0,53,True
+Coca-Cola 500ml,Retail,Tláhuac,Non Wealthy,Uber Eats,20,13,3,36,Ninguna,0,36,True
+Coca-Cola 500ml,Retail,Tláhuac,Non Wealthy,DiDi Food,16,13,2,31,Ninguna,0,31,True
+Coca-Cola 500ml,Retail,Milpa Alta,Non Wealthy,Rappi,17,28,2,47,Ninguna,0,47,True
+Coca-Cola 500ml,Retail,Milpa Alta,Non Wealthy,Uber Eats,16,13,2,31,Envío gratis siempre,13,18,True
+Coca-Cola 500ml,Retail,Milpa Alta,Non Wealthy,DiDi Food,19,13,2,34,Ninguna,0,34,True
+Coca-Cola 500ml,Retail,Xochimilco,Non Wealthy,Rappi,18,35,2,55,2x1 en combos,0,55,True
+Coca-Cola 500ml,Retail,Xochimilco,Non Wealthy,Uber Eats,18,15,3,36,15% off primer orden,3,33,True
+Coca-Cola 500ml,Retail,Xochimilco,Non Wealthy,DiDi Food,19,15,3,37,Envío gratis >$150,0,37,True
+Agua embotellada 1L,Retail,Polanco,Wealthy,Rappi,14,22,2,38,Ninguna,0,38,True
+Agua embotellada 1L,Retail,Polanco,Wealthy,Uber Eats,16,14,2,32,15% off primer orden,2,30,True
+Agua embotellada 1L,Retail,Polanco,Wealthy,DiDi Food,13,14,2,29,Ninguna,0,29,True
+Agua embotellada 1L,Retail,Roma Norte,Wealthy,Rappi,14,21,2,37,Envío gratis >$200,0,37,True
+Agua embotellada 1L,Retail,Roma Norte,Wealthy,Uber Eats,14,15,2,31,Envío gratis siempre,15,16,True
+Agua embotellada 1L,Retail,Roma Norte,Wealthy,DiDi Food,14,13,2,29,Ninguna,0,29,True
+Agua embotellada 1L,Retail,Condesa,Wealthy,Rappi,15,23,2,40,Ninguna,0,40,True
+Agua embotellada 1L,Retail,Condesa,Wealthy,Uber Eats,17,15,2,34,Ninguna,0,34,True
+Agua embotellada 1L,Retail,Condesa,Wealthy,DiDi Food,12,14,2,28,Envío gratis >$150,0,28,True
+Agua embotellada 1L,Retail,Del Valle,Wealthy,Rappi,14,21,2,37,Envío gratis >$200,0,37,True
+Agua embotellada 1L,Retail,Del Valle,Wealthy,Uber Eats,13,15,2,30,Envío gratis siempre,15,15,True
+Agua embotellada 1L,Retail,Del Valle,Wealthy,DiDi Food,17,14,2,33,Ninguna,0,33,True
+Agua embotellada 1L,Retail,Santa Fe,Wealthy,Rappi,14,21,2,37,Ninguna,0,37,True
+Agua embotellada 1L,Retail,Santa Fe,Wealthy,Uber Eats,16,14,2,32,15% off primer orden,2,30,True
+Agua embotellada 1L,Retail,Santa Fe,Wealthy,DiDi Food,16,14,2,32,Ninguna,0,32,True
+Agua embotellada 1L,Retail,Lomas de Chapultepec,Wealthy,Rappi,14,17,2,33,Ninguna,0,33,True
+Agua embotellada 1L,Retail,Lomas de Chapultepec,Wealthy,Uber Eats,11,14,2,27,Ninguna,0,27,True
+Agua embotellada 1L,Retail,Lomas de Chapultepec,Wealthy,DiDi Food,15,13,2,30,DiDi Pass mensual,13,17,True
+Agua embotellada 1L,Retail,Coyoacán,Mixed,Rappi,14,28,2,44,Ninguna,0,44,True
+Agua embotellada 1L,Retail,Coyoacán,Mixed,Uber Eats,17,15,2,34,Envío gratis siempre,15,19,True
+Agua embotellada 1L,Retail,Coyoacán,Mixed,DiDi Food,13,13,2,28,Ninguna,0,28,True
+Agua embotellada 1L,Retail,Narvarte,Mixed,Rappi,16,23,2,41,Ninguna,0,41,True
+Agua embotellada 1L,Retail,Narvarte,Mixed,Uber Eats,16,14,2,32,Ninguna,0,32,True
+Agua embotellada 1L,Retail,Narvarte,Mixed,DiDi Food,20,14,2,36,Ninguna,0,36,True
+Agua embotellada 1L,Retail,Mixcoac,Mixed,Rappi,14,28,2,44,Envío gratis >$200,0,44,True
+Agua embotellada 1L,Retail,Mixcoac,Mixed,Uber Eats,13,13,2,28,Ninguna,0,28,True
+Agua embotellada 1L,Retail,Mixcoac,Mixed,DiDi Food,17,13,2,32,Ninguna,0,32,True
+Agua embotellada 1L,Retail,Tlalpan,Mixed,Rappi,14,25,2,41,Ninguna,0,41,True
+Agua embotellada 1L,Retail,Tlalpan,Mixed,Uber Eats,17,14,2,33,Ninguna,0,33,True
+Agua embotellada 1L,Retail,Tlalpan,Mixed,DiDi Food,11,14,2,27,Ninguna,0,27,True
+Agua embotellada 1L,Retail,Doctores,Non Wealthy,Rappi,15,30,2,47,2x1 en combos,0,47,True
+Agua embotellada 1L,Retail,Doctores,Non Wealthy,Uber Eats,13,15,2,30,Ninguna,0,30,True
+Agua embotellada 1L,Retail,Doctores,Non Wealthy,DiDi Food,13,13,2,28,Ninguna,0,28,True
+Agua embotellada 1L,Retail,Iztapalapa,Non Wealthy,Rappi,15,34,2,51,Ninguna,0,51,True
+Agua embotellada 1L,Retail,Iztapalapa,Non Wealthy,Uber Eats,18,13,2,33,Uber One 50% off,6,27,True
+Agua embotellada 1L,Retail,Iztapalapa,Non Wealthy,DiDi Food,18,13,2,33,Ninguna,0,33,True
+Agua embotellada 1L,Retail,Tláhuac,Non Wealthy,Rappi,14,31,2,47,10% off próxima compra,1,46,True
+Agua embotellada 1L,Retail,Tláhuac,Non Wealthy,Uber Eats,16,15,2,33,Ninguna,0,33,True
+Agua embotellada 1L,Retail,Tláhuac,Non Wealthy,DiDi Food,13,14,2,29,Ninguna,0,29,True
+Agua embotellada 1L,Retail,Milpa Alta,Non Wealthy,Rappi,16,35,2,53,Ninguna,0,53,True
+Agua embotellada 1L,Retail,Milpa Alta,Non Wealthy,Uber Eats,17,14,2,33,Ninguna,0,33,True
+Agua embotellada 1L,Retail,Milpa Alta,Non Wealthy,DiDi Food,14,15,2,31,20% off restaurants,0,31,True
+Agua embotellada 1L,Retail,Xochimilco,Non Wealthy,Rappi,16,32,2,50,Ninguna,0,50,True
+Agua embotellada 1L,Retail,Xochimilco,Non Wealthy,Uber Eats,16,15,2,33,Uber One 50% off,8,25,True
+Agua embotellada 1L,Retail,Xochimilco,Non Wealthy,DiDi Food,16,14,2,32,Ninguna,0,32,True
+Paquete pañales Pampers,Retail,Polanco,Wealthy,Rappi,309,20,41,370,Envío gratis >$200,20,350,True
+Paquete pañales Pampers,Retail,Polanco,Wealthy,Uber Eats,308,14,41,363,Ninguna,0,363,True
+Paquete pañales Pampers,Retail,Polanco,Wealthy,DiDi Food,311,14,42,367,Ninguna,0,367,True
+Paquete pañales Pampers,Retail,Roma Norte,Wealthy,Rappi,288,17,35,340,Ninguna,0,340,True
+Paquete pañales Pampers,Retail,Roma Norte,Wealthy,Uber Eats,290,14,39,343,Envío gratis siempre,14,329,True
+Paquete pañales Pampers,Retail,Roma Norte,Wealthy,DiDi Food,287,13,40,340,DiDi Pass mensual,13,327,True
+Paquete pañales Pampers,Retail,Condesa,Wealthy,Rappi,285,22,38,345,Ninguna,0,345,True
+Paquete pañales Pampers,Retail,Condesa,Wealthy,Uber Eats,286,14,40,340,15% off primer orden,43,297,True
+Paquete pañales Pampers,Retail,Condesa,Wealthy,DiDi Food,289,13,35,337,Ninguna,0,337,True
+Paquete pañales Pampers,Retail,Del Valle,Wealthy,Rappi,296,21,35,352,Ninguna,0,352,True
+Paquete pañales Pampers,Retail,Del Valle,Wealthy,Uber Eats,297,15,43,355,15% off primer orden,45,310,True
+Paquete pañales Pampers,Retail,Del Valle,Wealthy,DiDi Food,300,13,38,351,Envío gratis >$150,13,338,True
+Paquete pañales Pampers,Retail,Santa Fe,Wealthy,Rappi,295,20,36,351,Ninguna,0,351,True
+Paquete pañales Pampers,Retail,Santa Fe,Wealthy,Uber Eats,292,14,40,346,Uber One 50% off,7,339,True
+Paquete pañales Pampers,Retail,Santa Fe,Wealthy,DiDi Food,293,14,44,351,Ninguna,0,351,True
+Paquete pañales Pampers,Retail,Lomas de Chapultepec,Wealthy,Rappi,285,19,34,338,10% off próxima compra,28,310,True
+Paquete pañales Pampers,Retail,Lomas de Chapultepec,Wealthy,Uber Eats,288,13,40,341,15% off primer orden,43,298,True
+Paquete pañales Pampers,Retail,Lomas de Chapultepec,Wealthy,DiDi Food,288,15,38,341,Ninguna,0,341,True
+Paquete pañales Pampers,Retail,Coyoacán,Mixed,Rappi,294,23,33,350,2x1 en combos,0,350,True
+Paquete pañales Pampers,Retail,Coyoacán,Mixed,Uber Eats,292,15,41,348,Ninguna,0,348,True
+Paquete pañales Pampers,Retail,Coyoacán,Mixed,DiDi Food,298,14,41,353,Ninguna,0,353,True
+Paquete pañales Pampers,Retail,Narvarte,Mixed,Rappi,291,21,38,350,Envío gratis >$200,21,329,True
+Paquete pañales Pampers,Retail,Narvarte,Mixed,Uber Eats,290,13,40,343,15% off primer orden,44,299,True
+Paquete pañales Pampers,Retail,Narvarte,Mixed,DiDi Food,288,13,37,338,Ninguna,0,338,True
+Paquete pañales Pampers,Retail,Mixcoac,Mixed,Rappi,308,24,35,367,Ninguna,0,367,True
+Paquete pañales Pampers,Retail,Mixcoac,Mixed,Uber Eats,306,15,46,367,Ninguna,0,367,True
+Paquete pañales Pampers,Retail,Mixcoac,Mixed,DiDi Food,312,13,38,363,Ninguna,0,363,True
+Paquete pañales Pampers,Retail,Tlalpan,Mixed,Rappi,298,23,40,361,Ninguna,0,361,True
+Paquete pañales Pampers,Retail,Tlalpan,Mixed,Uber Eats,295,15,43,353,Ninguna,0,353,True
+Paquete pañales Pampers,Retail,Tlalpan,Mixed,DiDi Food,295,13,41,349,20% off restaurants,0,349,True
+Paquete pañales Pampers,Retail,Doctores,Non Wealthy,Rappi,300,34,42,376,2x1 en combos,0,376,True
+Paquete pañales Pampers,Retail,Doctores,Non Wealthy,Uber Eats,303,14,42,359,Ninguna,0,359,True
+Paquete pañales Pampers,Retail,Doctores,Non Wealthy,DiDi Food,300,15,40,355,Ninguna,0,355,True
+Paquete pañales Pampers,Retail,Iztapalapa,Non Wealthy,Rappi,297,32,40,369,Ninguna,0,369,True
+Paquete pañales Pampers,Retail,Iztapalapa,Non Wealthy,Uber Eats,295,14,44,353,15% off primer orden,44,309,True
+Paquete pañales Pampers,Retail,Iztapalapa,Non Wealthy,DiDi Food,299,15,38,352,Ninguna,0,352,True
+Paquete pañales Pampers,Retail,Tláhuac,Non Wealthy,Rappi,308,30,37,375,Ninguna,0,375,True
+Paquete pañales Pampers,Retail,Tláhuac,Non Wealthy,Uber Eats,311,13,45,369,Uber One 50% off,6,363,True
+Paquete pañales Pampers,Retail,Tláhuac,Non Wealthy,DiDi Food,311,15,38,364,Ninguna,0,364,True
+Paquete pañales Pampers,Retail,Milpa Alta,Non Wealthy,Rappi,292,28,40,360,Ninguna,0,360,True
+Paquete pañales Pampers,Retail,Milpa Alta,Non Wealthy,Uber Eats,290,13,40,343,Ninguna,0,343,True
+Paquete pañales Pampers,Retail,Milpa Alta,Non Wealthy,DiDi Food,294,14,39,347,20% off restaurants,0,347,True
+Paquete pañales Pampers,Retail,Xochimilco,Non Wealthy,Rappi,303,33,34,370,2x1 en combos,0,370,True
+Paquete pañales Pampers,Retail,Xochimilco,Non Wealthy,Uber Eats,303,13,42,358,Ninguna,0,358,True
+Paquete pañales Pampers,Retail,Xochimilco,Non Wealthy,DiDi Food,307,13,42,362,Ninguna,0,362,True
+Pizza Domino's Pepperoni,Fast Food,Polanco,Wealthy,Rappi,231,17,26,274,Ninguna,0,274,True
+Pizza Domino's Pepperoni,Fast Food,Polanco,Wealthy,Uber Eats,231,14,32,277,Ninguna,0,277,True
+Pizza Domino's Pepperoni,Fast Food,Polanco,Wealthy,DiDi Food,228,13,30,271,Ninguna,0,271,True
+Pizza Domino's Pepperoni,Fast Food,Roma Norte,Wealthy,Rappi,240,23,29,292,Envío gratis >$200,23,269,True
+Pizza Domino's Pepperoni,Fast Food,Roma Norte,Wealthy,Uber Eats,238,13,34,285,Ninguna,0,285,True
+Pizza Domino's Pepperoni,Fast Food,Roma Norte,Wealthy,DiDi Food,240,15,30,285,Ninguna,0,285,True
+Pizza Domino's Pepperoni,Fast Food,Condesa,Wealthy,Rappi,250,23,34,307,10% off próxima compra,25,282,True
+Pizza Domino's Pepperoni,Fast Food,Condesa,Wealthy,Uber Eats,250,14,37,301,15% off primer orden,38,263,True
+Pizza Domino's Pepperoni,Fast Food,Condesa,Wealthy,DiDi Food,253,15,36,304,Ninguna,0,304,True
+Pizza Domino's Pepperoni,Fast Food,Del Valle,Wealthy,Rappi,239,22,28,289,Ninguna,0,289,True
+Pizza Domino's Pepperoni,Fast Food,Del Valle,Wealthy,Uber Eats,238,14,32,284,Ninguna,0,284,True
+Pizza Domino's Pepperoni,Fast Food,Del Valle,Wealthy,DiDi Food,242,15,30,287,20% off restaurants,48,239,True
+Pizza Domino's Pepperoni,Fast Food,Santa Fe,Wealthy,Rappi,243,17,31,291,Ninguna,0,291,True
+Pizza Domino's Pepperoni,Fast Food,Santa Fe,Wealthy,Uber Eats,241,15,33,289,Uber One 50% off,8,281,True
+Pizza Domino's Pepperoni,Fast Food,Santa Fe,Wealthy,DiDi Food,239,14,33,286,Ninguna,0,286,True
+Pizza Domino's Pepperoni,Fast Food,Lomas de Chapultepec,Wealthy,Rappi,250,21,32,303,Ninguna,0,303,True
+Pizza Domino's Pepperoni,Fast Food,Lomas de Chapultepec,Wealthy,Uber Eats,247,15,35,297,Ninguna,0,297,True
+Pizza Domino's Pepperoni,Fast Food,Lomas de Chapultepec,Wealthy,DiDi Food,253,13,31,297,Envío gratis >$150,13,284,True
+Pizza Domino's Pepperoni,Fast Food,Coyoacán,Mixed,Rappi,251,22,30,303,Ninguna,0,303,True
+Pizza Domino's Pepperoni,Fast Food,Coyoacán,Mixed,Uber Eats,249,14,37,300,Ninguna,0,300,True
+Pizza Domino's Pepperoni,Fast Food,Coyoacán,Mixed,DiDi Food,254,13,36,303,DiDi Pass mensual,13,290,True
+Pizza Domino's Pepperoni,Fast Food,Narvarte,Mixed,Rappi,242,22,34,298,Ninguna,0,298,True
+Pizza Domino's Pepperoni,Fast Food,Narvarte,Mixed,Uber Eats,243,14,32,289,Uber One 50% off,7,282,True
+Pizza Domino's Pepperoni,Fast Food,Narvarte,Mixed,DiDi Food,238,14,36,288,Ninguna,0,288,True
+Pizza Domino's Pepperoni,Fast Food,Mixcoac,Mixed,Rappi,245,22,32,299,Ninguna,0,299,True
+Pizza Domino's Pepperoni,Fast Food,Mixcoac,Mixed,Uber Eats,242,15,35,292,Uber One 50% off,8,284,True
+Pizza Domino's Pepperoni,Fast Food,Mixcoac,Mixed,DiDi Food,246,14,36,296,Ninguna,0,296,True
+Pizza Domino's Pepperoni,Fast Food,Tlalpan,Mixed,Rappi,253,23,34,310,Ninguna,0,310,True
+Pizza Domino's Pepperoni,Fast Food,Tlalpan,Mixed,Uber Eats,256,13,36,305,Uber One 50% off,6,299,True
+Pizza Domino's Pepperoni,Fast Food,Tlalpan,Mixed,DiDi Food,254,13,36,303,20% off restaurants,51,252,True
+Pizza Domino's Pepperoni,Fast Food,Doctores,Non Wealthy,Rappi,251,30,28,309,Envío gratis >$200,30,279,True
+Pizza Domino's Pepperoni,Fast Food,Doctores,Non Wealthy,Uber Eats,254,15,37,306,Uber One 50% off,8,298,True
+Pizza Domino's Pepperoni,Fast Food,Doctores,Non Wealthy,DiDi Food,248,15,32,295,Ninguna,0,295,True
+Pizza Domino's Pepperoni,Fast Food,Iztapalapa,Non Wealthy,Rappi,233,29,28,290,Envío gratis >$200,29,261,True
+Pizza Domino's Pepperoni,Fast Food,Iztapalapa,Non Wealthy,Uber Eats,231,13,33,277,Ninguna,0,277,True
+Pizza Domino's Pepperoni,Fast Food,Iztapalapa,Non Wealthy,DiDi Food,236,14,29,279,Ninguna,0,279,True
+Pizza Domino's Pepperoni,Fast Food,Tláhuac,Non Wealthy,Rappi,233,29,28,290,10% off próxima compra,23,267,True
+Pizza Domino's Pepperoni,Fast Food,Tláhuac,Non Wealthy,Uber Eats,234,13,33,280,15% off primer orden,35,245,True
+Pizza Domino's Pepperoni,Fast Food,Tláhuac,Non Wealthy,DiDi Food,234,14,34,282,Ninguna,0,282,True
+Pizza Domino's Pepperoni,Fast Food,Milpa Alta,Non Wealthy,Rappi,253,35,33,321,Envío gratis >$200,35,286,True
+Pizza Domino's Pepperoni,Fast Food,Milpa Alta,Non Wealthy,Uber Eats,252,13,35,300,Envío gratis siempre,13,287,True
+Pizza Domino's Pepperoni,Fast Food,Milpa Alta,Non Wealthy,DiDi Food,250,14,31,295,20% off restaurants,50,245,True
+Pizza Domino's Pepperoni,Fast Food,Xochimilco,Non Wealthy,Rappi,230,30,28,288,Ninguna,0,288,True
+Pizza Domino's Pepperoni,Fast Food,Xochimilco,Non Wealthy,Uber Eats,233,15,30,278,Ninguna,0,278,True
+Pizza Domino's Pepperoni,Fast Food,Xochimilco,Non Wealthy,DiDi Food,228,13,33,274,Ninguna,0,274,True
+Starbucks Latte Grande,Fast Food,Polanco,Wealthy,Rappi,67,21,8,96,Envío gratis >$200,0,96,True
+Starbucks Latte Grande,Fast Food,Polanco,Wealthy,Uber Eats,68,13,9,90,Uber One 50% off,6,84,True
+Starbucks Latte Grande,Fast Food,Polanco,Wealthy,DiDi Food,66,15,10,91,Ninguna,0,91,True
+Starbucks Latte Grande,Fast Food,Roma Norte,Wealthy,Rappi,68,19,9,96,2x1 en combos,34,62,True
+Starbucks Latte Grande,Fast Food,Roma Norte,Wealthy,Uber Eats,71,15,9,95,Ninguna,0,95,True
+Starbucks Latte Grande,Fast Food,Roma Norte,Wealthy,DiDi Food,68,13,10,91,Ninguna,0,91,True
+Starbucks Latte Grande,Fast Food,Condesa,Wealthy,Rappi,68,19,9,96,2x1 en combos,34,62,True
+Starbucks Latte Grande,Fast Food,Condesa,Wealthy,Uber Eats,65,13,9,87,15% off primer orden,10,77,True
+Starbucks Latte Grande,Fast Food,Condesa,Wealthy,DiDi Food,72,14,9,95,Ninguna,0,95,True
+Starbucks Latte Grande,Fast Food,Del Valle,Wealthy,Rappi,68,20,9,97,2x1 en combos,34,63,True
+Starbucks Latte Grande,Fast Food,Del Valle,Wealthy,Uber Eats,70,14,10,94,15% off primer orden,10,84,True
+Starbucks Latte Grande,Fast Food,Del Valle,Wealthy,DiDi Food,65,13,10,88,Ninguna,0,88,True
+Starbucks Latte Grande,Fast Food,Santa Fe,Wealthy,Rappi,70,20,8,98,Ninguna,0,98,True
+Starbucks Latte Grande,Fast Food,Santa Fe,Wealthy,Uber Eats,73,14,10,97,Ninguna,0,97,True
+Starbucks Latte Grande,Fast Food,Santa Fe,Wealthy,DiDi Food,66,15,8,89,Ninguna,0,89,True
+Starbucks Latte Grande,Fast Food,Lomas de Chapultepec,Wealthy,Rappi,73,17,9,99,Ninguna,0,99,True
+Starbucks Latte Grande,Fast Food,Lomas de Chapultepec,Wealthy,Uber Eats,72,15,10,97,Ninguna,0,97,True
+Starbucks Latte Grande,Fast Food,Lomas de Chapultepec,Wealthy,DiDi Food,69,14,11,94,Ninguna,0,94,True
+Starbucks Latte Grande,Fast Food,Coyoacán,Mixed,Rappi,71,27,8,106,Ninguna,0,106,True
+Starbucks Latte Grande,Fast Food,Coyoacán,Mixed,Uber Eats,73,15,10,98,Ninguna,0,98,True
+Starbucks Latte Grande,Fast Food,Coyoacán,Mixed,DiDi Food,75,14,10,99,Ninguna,0,99,True
+Starbucks Latte Grande,Fast Food,Narvarte,Mixed,Rappi,66,24,8,98,Ninguna,0,98,True
+Starbucks Latte Grande,Fast Food,Narvarte,Mixed,Uber Eats,66,13,9,88,Ninguna,0,88,True
+Starbucks Latte Grande,Fast Food,Narvarte,Mixed,DiDi Food,62,14,9,85,Ninguna,0,85,True
+Starbucks Latte Grande,Fast Food,Mixcoac,Mixed,Rappi,67,21,8,96,Ninguna,0,96,True
+Starbucks Latte Grande,Fast Food,Mixcoac,Mixed,Uber Eats,69,13,9,91,15% off primer orden,10,81,True
+Starbucks Latte Grande,Fast Food,Mixcoac,Mixed,DiDi Food,69,13,8,90,DiDi Pass mensual,13,77,True
+Starbucks Latte Grande,Fast Food,Tlalpan,Mixed,Rappi,67,27,8,102,Ninguna,0,102,True
+Starbucks Latte Grande,Fast Food,Tlalpan,Mixed,Uber Eats,66,14,9,89,15% off primer orden,10,79,True
+Starbucks Latte Grande,Fast Food,Tlalpan,Mixed,DiDi Food,68,14,9,91,Ninguna,0,91,True
+Starbucks Latte Grande,Fast Food,Doctores,Non Wealthy,Rappi,66,29,9,104,Ninguna,0,104,True
+Starbucks Latte Grande,Fast Food,Doctores,Non Wealthy,Uber Eats,65,14,9,88,15% off primer orden,10,78,True
+Starbucks Latte Grande,Fast Food,Doctores,Non Wealthy,DiDi Food,65,14,9,88,Envío gratis >$150,0,88,True
+Starbucks Latte Grande,Fast Food,Iztapalapa,Non Wealthy,Rappi,72,30,8,110,2x1 en combos,36,74,True
+Starbucks Latte Grande,Fast Food,Iztapalapa,Non Wealthy,Uber Eats,72,15,10,97,Ninguna,0,97,True
+Starbucks Latte Grande,Fast Food,Iztapalapa,Non Wealthy,DiDi Food,74,13,10,97,Ninguna,0,97,True
+Starbucks Latte Grande,Fast Food,Tláhuac,Non Wealthy,Rappi,68,34,8,110,Ninguna,0,110,True
+Starbucks Latte Grande,Fast Food,Tláhuac,Non Wealthy,Uber Eats,67,14,10,91,15% off primer orden,10,81,True
+Starbucks Latte Grande,Fast Food,Tláhuac,Non Wealthy,DiDi Food,65,13,10,88,Ninguna,0,88,True
+Starbucks Latte Grande,Fast Food,Milpa Alta,Non Wealthy,Rappi,73,28,8,109,Envío gratis >$200,0,109,True
+Starbucks Latte Grande,Fast Food,Milpa Alta,Non Wealthy,Uber Eats,75,15,10,100,Ninguna,0,100,True
+Starbucks Latte Grande,Fast Food,Milpa Alta,Non Wealthy,DiDi Food,69,15,9,93,20% off restaurants,14,79,True
+Starbucks Latte Grande,Fast Food,Xochimilco,Non Wealthy,Rappi,67,32,9,108,Ninguna,0,108,True
+Starbucks Latte Grande,Fast Food,Xochimilco,Non Wealthy,Uber Eats,64,13,9,86,Ninguna,0,86,True
+Starbucks Latte Grande,Fast Food,Xochimilco,Non Wealthy,DiDi Food,66,14,10,90,Ninguna,0,90,True
+Seven Eleven Sandwich,Retail,Polanco,Wealthy,Rappi,44,20,5,69,Ninguna,0,69,True
+Seven Eleven Sandwich,Retail,Polanco,Wealthy,Uber Eats,44,14,6,64,15% off primer orden,7,57,True
+Seven Eleven Sandwich,Retail,Polanco,Wealthy,DiDi Food,42,15,6,63,DiDi Pass mensual,15,48,True
+Seven Eleven Sandwich,Retail,Roma Norte,Wealthy,Rappi,45,18,6,69,Ninguna,0,69,True
+Seven Eleven Sandwich,Retail,Roma Norte,Wealthy,Uber Eats,46,14,6,66,Ninguna,0,66,True
+Seven Eleven Sandwich,Retail,Roma Norte,Wealthy,DiDi Food,45,15,6,66,Ninguna,0,66,True
+Seven Eleven Sandwich,Retail,Condesa,Wealthy,Rappi,47,23,6,76,10% off próxima compra,5,71,True
+Seven Eleven Sandwich,Retail,Condesa,Wealthy,Uber Eats,46,14,7,67,Ninguna,0,67,True
+Seven Eleven Sandwich,Retail,Condesa,Wealthy,DiDi Food,51,15,6,72,DiDi Pass mensual,15,57,True
+Seven Eleven Sandwich,Retail,Del Valle,Wealthy,Rappi,43,20,5,68,Ninguna,0,68,True
+Seven Eleven Sandwich,Retail,Del Valle,Wealthy,Uber Eats,45,13,6,64,Ninguna,0,64,True
+Seven Eleven Sandwich,Retail,Del Valle,Wealthy,DiDi Food,47,15,5,67,Ninguna,0,67,True
+Seven Eleven Sandwich,Retail,Santa Fe,Wealthy,Rappi,43,17,6,66,2x1 en combos,0,66,True
+Seven Eleven Sandwich,Retail,Santa Fe,Wealthy,Uber Eats,40,14,6,60,Ninguna,0,60,True
+Seven Eleven Sandwich,Retail,Santa Fe,Wealthy,DiDi Food,39,13,6,58,Envío gratis >$150,0,58,True
+Seven Eleven Sandwich,Retail,Lomas de Chapultepec,Wealthy,Rappi,48,20,5,73,Ninguna,0,73,True
+Seven Eleven Sandwich,Retail,Lomas de Chapultepec,Wealthy,Uber Eats,49,15,7,71,15% off primer orden,7,64,True
+Seven Eleven Sandwich,Retail,Lomas de Chapultepec,Wealthy,DiDi Food,47,13,6,66,Ninguna,0,66,True
+Seven Eleven Sandwich,Retail,Coyoacán,Mixed,Rappi,47,25,5,77,Ninguna,0,77,True
+Seven Eleven Sandwich,Retail,Coyoacán,Mixed,Uber Eats,47,15,7,69,15% off primer orden,7,62,True
+Seven Eleven Sandwich,Retail,Coyoacán,Mixed,DiDi Food,47,13,7,67,Ninguna,0,67,True
+Seven Eleven Sandwich,Retail,Narvarte,Mixed,Rappi,43,22,5,70,Ninguna,0,70,True
+Seven Eleven Sandwich,Retail,Narvarte,Mixed,Uber Eats,46,13,6,65,Ninguna,0,65,True
+Seven Eleven Sandwich,Retail,Narvarte,Mixed,DiDi Food,44,13,6,63,Ninguna,0,63,True
+Seven Eleven Sandwich,Retail,Mixcoac,Mixed,Rappi,44,22,6,72,10% off próxima compra,4,68,True
+Seven Eleven Sandwich,Retail,Mixcoac,Mixed,Uber Eats,46,15,6,67,Ninguna,0,67,True
+Seven Eleven Sandwich,Retail,Mixcoac,Mixed,DiDi Food,44,14,6,64,DiDi Pass mensual,14,50,True
+Seven Eleven Sandwich,Retail,Tlalpan,Mixed,Rappi,44,23,5,72,Envío gratis >$200,0,72,True
+Seven Eleven Sandwich,Retail,Tlalpan,Mixed,Uber Eats,41,14,6,61,Envío gratis siempre,14,47,True
+Seven Eleven Sandwich,Retail,Tlalpan,Mixed,DiDi Food,47,14,6,67,Ninguna,0,67,True
+Seven Eleven Sandwich,Retail,Doctores,Non Wealthy,Rappi,48,32,5,85,Envío gratis >$200,0,85,True
+Seven Eleven Sandwich,Retail,Doctores,Non Wealthy,Uber Eats,50,13,7,70,Envío gratis siempre,13,57,True
+Seven Eleven Sandwich,Retail,Doctores,Non Wealthy,DiDi Food,52,13,7,72,DiDi Pass mensual,13,59,True
+Seven Eleven Sandwich,Retail,Iztapalapa,Non Wealthy,Rappi,47,32,5,84,Ninguna,0,84,True
+Seven Eleven Sandwich,Retail,Iztapalapa,Non Wealthy,Uber Eats,47,15,7,69,Envío gratis siempre,15,54,True
+Seven Eleven Sandwich,Retail,Iztapalapa,Non Wealthy,DiDi Food,48,13,7,68,Envío gratis >$150,0,68,True
+Seven Eleven Sandwich,Retail,Tláhuac,Non Wealthy,Rappi,45,32,5,82,Ninguna,0,82,True
+Seven Eleven Sandwich,Retail,Tláhuac,Non Wealthy,Uber Eats,48,15,6,69,Ninguna,0,69,True
+Seven Eleven Sandwich,Retail,Tláhuac,Non Wealthy,DiDi Food,41,13,5,59,DiDi Pass mensual,13,46,True
+Seven Eleven Sandwich,Retail,Milpa Alta,Non Wealthy,Rappi,46,32,5,83,Ninguna,0,83,True
+Seven Eleven Sandwich,Retail,Milpa Alta,Non Wealthy,Uber Eats,44,13,6,63,15% off primer orden,7,56,True
+Seven Eleven Sandwich,Retail,Milpa Alta,Non Wealthy,DiDi Food,44,13,6,63,DiDi Pass mensual,13,50,True
+Seven Eleven Sandwich,Retail,Xochimilco,Non Wealthy,Rappi,43,30,6,79,Ninguna,0,79,True
+Seven Eleven Sandwich,Retail,Xochimilco,Non Wealthy,Uber Eats,44,13,6,63,Ninguna,0,63,True
+Seven Eleven Sandwich,Retail,Xochimilco,Non Wealthy,DiDi Food,47,14,6,67,Ninguna,0,67,True
