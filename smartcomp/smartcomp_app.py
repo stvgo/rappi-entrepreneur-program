@@ -12,6 +12,7 @@ import plotly.graph_objects as go
 from pathlib import Path
 import requests
 import json
+import os
 
 st.set_page_config(
     page_title="SmartComp - Comparador Inteligente",
@@ -123,7 +124,9 @@ with st.sidebar:
     selected_product = st.selectbox("🍔 Producto", products)
     st.markdown("---")
     st.markdown("### 🔑 OpenRouter API")
-    api_key = st.text_input("API Key (gratis)", value="", type="password", placeholder="sk-or-v1-...")
+    api_key = st.text_input("API Key (gratis)", value=os.getenv("OPENROUTER_API_KEY", ""), type="password", placeholder="sk-or-v1-...")
+    if os.getenv("OPENROUTER_API_KEY"):
+        st.success("✅ API key cargada desde variable de entorno")
     model = st.text_input("Modelo", value="nvidia/nemotron-3-super-120b-a12b:free")
     st.markdown("---")
     st.markdown("### 📚 Documentación")
