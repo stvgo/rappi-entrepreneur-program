@@ -1,0 +1,31 @@
+product,category,zone,zone_type,competitor,product_price,delivery_fee,service_fee,subtotal,promo,discount,final_total,available
+Big Mac,Fast Food,Polanco,Wealthy,Rappi,88,22,11,121,Ninguna,0,121,True
+Big Mac,Fast Food,Polanco,Wealthy,Uber Eats,91,14,13,118,Ninguna,0,118,True
+Big Mac,Fast Food,Polanco,Wealthy,DiDi Food,88,14,12,114,DiDi Pass mensual,0,114,True
+Combo McDonald's Mediano,Fast Food,Polanco,Wealthy,Rappi,148,22,19,189,Ninguna,0,189,True
+Combo McDonald's Mediano,Fast Food,Polanco,Wealthy,Uber Eats,144,14,20,178,Ninguna,0,178,True
+Combo McDonald's Mediano,Fast Food,Polanco,Wealthy,DiDi Food,145,14,20,179,Ninguna,0,179,True
+Nuggets 10 piezas,Fast Food,Polanco,Wealthy,Rappi,124,22,16,162,Envío gratis >$200,22,140,True
+Nuggets 10 piezas,Fast Food,Polanco,Wealthy,Uber Eats,120,14,17,151,Ninguna,0,151,True
+Nuggets 10 piezas,Fast Food,Polanco,Wealthy,DiDi Food,115,14,16,145,DiDi Pass mensual,0,145,True
+Whopper,Fast Food,Polanco,Wealthy,Rappi,96,22,12,130,2x1 en combos,48,82,True
+Whopper,Fast Food,Polanco,Wealthy,Uber Eats,95,14,13,122,Ninguna,0,122,True
+Whopper,Fast Food,Polanco,Wealthy,DiDi Food,94,14,13,121,Ninguna,0,121,True
+Coca-Cola 500ml,Retail,Polanco,Wealthy,Rappi,18,22,2,42,2x1 en combos,9,33,True
+Coca-Cola 500ml,Retail,Polanco,Wealthy,Uber Eats,18,14,3,35,15% off primer orden,3,32,True
+Coca-Cola 500ml,Retail,Polanco,Wealthy,DiDi Food,19,14,3,36,Ninguna,0,36,True
+Agua embotellada 1L,Retail,Polanco,Wealthy,Rappi,15,22,2,39,Ninguna,0,39,True
+Agua embotellada 1L,Retail,Polanco,Wealthy,Uber Eats,14,14,2,30,Ninguna,0,30,True
+Agua embotellada 1L,Retail,Polanco,Wealthy,DiDi Food,15,14,2,31,Envío gratis >$150,14,17,True
+Paquete pañales Pampers,Retail,Polanco,Wealthy,Rappi,299,22,38,359,Envío gratis >$200,22,337,True
+Paquete pañales Pampers,Retail,Polanco,Wealthy,Uber Eats,282,14,40,336,Ninguna,0,336,True
+Paquete pañales Pampers,Retail,Polanco,Wealthy,DiDi Food,289,14,41,344,Ninguna,0,344,True
+Pizza Domino's Pepperoni,Fast Food,Polanco,Wealthy,Rappi,240,22,31,293,2x1 en combos,120,173,True
+Pizza Domino's Pepperoni,Fast Food,Polanco,Wealthy,Uber Eats,247,14,35,296,15% off primer orden,37,259,True
+Pizza Domino's Pepperoni,Fast Food,Polanco,Wealthy,DiDi Food,253,14,36,303,Ninguna,0,303,True
+Starbucks Latte Grande,Fast Food,Polanco,Wealthy,Rappi,72,22,9,103,2x1 en combos,36,67,True
+Starbucks Latte Grande,Fast Food,Polanco,Wealthy,Uber Eats,69,14,10,93,Ninguna,0,93,True
+Starbucks Latte Grande,Fast Food,Polanco,Wealthy,DiDi Food,73,14,10,97,Ninguna,0,97,True
+Seven Eleven Sandwich,Retail,Polanco,Wealthy,Rappi,45,22,6,73,Ninguna,0,73,True
+Seven Eleven Sandwich,Retail,Polanco,Wealthy,Uber Eats,47,14,7,68,Ninguna,0,68,True
+Seven Eleven Sandwich,Retail,Polanco,Wealthy,DiDi Food,45,14,6,65,Envío gratis >$150,14,51,True
